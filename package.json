@@ -1,0 +1,19 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "rock-paper-scissors game",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernestosmr/rock-paper-scissors.git"
+  },
+  "author": "@safoi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ernestosmr/rock-paper-scissors/issues"
+  },
+  "homepage": "https://github.com/ernestosmr/rock-paper-scissors#readme"
+}

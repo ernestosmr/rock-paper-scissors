@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 20px;
+    height: 100vh;
+    background-image: url('../assets/aa9bb7ffc6d502e9112ec8c7e9350175.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Beggining Styles */
+.beggining-header{
+    padding-block: 10px;
+    text-align: center;
+}
+.beggining-main h2{
+    position: relative;
+}
+.beggining-main h2 img{
+    position: absolute;
+    bottom: -2px;
+    width: 32px;
+}
+
+.beggining-main div.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-block: 10px;
+}
+.beggining-main div.button-container button{
+    margin: 5px 0;
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+}
+.beggining-main div.icons-container{
+    text-align: center;
+}
+.beggining-main div.icons-container img{
+    width: 60px;
+    margin: 10px;
+}
+.beggining-footer{
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
